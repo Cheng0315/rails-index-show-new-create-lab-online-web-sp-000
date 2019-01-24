@@ -8,6 +8,7 @@ class ApplicationController < ActionController::Base
   end
 
   def show
+    @student = Student.find(params[:id])
   end
 
   def new
