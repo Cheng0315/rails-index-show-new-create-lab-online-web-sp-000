@@ -5,7 +5,7 @@ class CouponsController < ApplicationController
   end
 
   def show
-    @student = Student.find(params[:id])
+    @coupon = Coupon.find(params[:id])
   end
 
   def new
